@@ -71,4 +71,4 @@ These work the same in every client, but are easiest in Nextcloud Calendar on th
 ## Known limits
 
 - An outside attendee who replies from their own calendar app, instead of clicking `Accept` or `Decline`, sends the reply as email to the organizer's mailbox. Nextcloud does not read that mailbox, so the event does not update.
-- Only ThunderID user types listed in `nextcloudDeps.registerJob.allowedUserTypes` can sign in to Nextcloud. Invitations need an email address, so those users also need the `email` attribute set in ThunderID.
+- Every ThunderID user can sign in to Nextcloud, whatever their user type: ThunderID v1.0.2 does not enforce `allowedUserTypes` at sign-in. Invitations need an email address, so each user needs the `email` attribute set in ThunderID.
