@@ -77,7 +77,7 @@ To run OpenGovMail you need:
 
 - [Helm values](docs/reference/helm-values.md): the settings you are most likely to change.
 - [Add users](docs/how-to/add-users.md) in the ThunderID console.
-- [Turn on collaboration](docs/how-to/enable-collaboration.md): Nextcloud, Collabora, Talk and Matrix.
+- [Add the collaboration services](docs/how-to/enable-collaboration.md): Nextcloud, Collabora, Talk and Matrix.
 
 ### Run
 

@@ -31,7 +31,7 @@ raven:
 
 ## Collaboration sign-in
 
-Nextcloud and Matrix register themselves in ThunderID on every install and upgrade, and send users to ThunderID to sign in. Only the user types they list can sign in: `Person` by default. Groups in Nextcloud come from ThunderID and update at each sign-in. [Turn on collaboration](../how-to/enable-collaboration.md#user-types) explains how to allow other user types.
+Nextcloud and Matrix register themselves in ThunderID on every install and upgrade, and send users to ThunderID to sign in. Only the user types they list can sign in: `Person` by default. Groups in Nextcloud come from ThunderID and update at each sign-in. [Add the collaboration services](../how-to/enable-collaboration.md#user-types) explains how to allow other user types.
 
 ## Use cases
 
